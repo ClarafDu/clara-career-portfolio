@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#f7f6f2"/>
+  <path d="M0 500H1200M930 0V630" stroke="#d8e0e2"/>
+  <text x="70" y="86" fill="#24559a" font-family="Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="5">CLARA / SELECTED WORK</text>
+  <text x="70" y="265" fill="#152127" font-family="Georgia,serif" font-size="100">From AI Products</text>
+  <text x="70" y="375" fill="#24559a" font-family="Georgia,serif" font-size="100">to Business Growth.</text>
+  <text x="70" y="552" fill="#516876" font-family="Arial,sans-serif" font-size="22">AI GROWTH STRATEGY  ·  COMMERCIALIZATION  ·  OPERATIONS</text>
+  <circle cx="1030" cy="168" r="88" fill="none" stroke="#9ab6ce"/>
+  <circle cx="1075" cy="220" r="88" fill="none" stroke="#9ab6ce"/>
+</svg>

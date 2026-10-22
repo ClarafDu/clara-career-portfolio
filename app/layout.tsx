@@ -2,31 +2,31 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.SITE_URL ?? "http://localhost:3000"),
-  title: "Clara｜出海运营负责人 & Fractional COO",
+  metadataBase: new URL(process.env.SITE_URL ?? "https://clarafdu.github.io/clara-career-portfolio/"),
+  title: "Clara — From AI Products to Business Growth",
   description:
-    "Clara的AI产品职业与合作档案：以8年出海运营、商业化与Fractional COO经验，参与AI产品从0到1和规模化增长。",
+    "Selected projects and expertise in AI product growth, commercialization, operations and AI-assisted website building.",
   icons: {
-    icon: "/avatar.png",
-    shortcut: "/avatar.png",
+    icon: "/clara-career-portfolio/favicon.svg",
+    shortcut: "/clara-career-portfolio/favicon.svg",
   },
   openGraph: {
-    title: "Clara｜出海运营负责人 & Fractional COO",
-    description: "8年出海运营与商业化经验，寻找值得长期共创的AI产品。",
+    title: "Clara — From AI Products to Business Growth",
+    description: "Selected projects and expertise in AI growth, commercialization, operations and AI-assisted website building.",
     type: "website",
-    images: [{ url: "/og.png", width: 1672, height: 942, alt: "Clara的职业网站" }],
+    images: [{ url: "/clara-career-portfolio/og.svg", width: 1200, height: 630, alt: "Clara professional portfolio" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Clara｜出海运营负责人 & Fractional COO",
-    description: "8年出海运营与商业化经验，寻找值得长期共创的AI产品。",
-    images: ["/og.png"],
+    title: "Clara — From AI Products to Business Growth",
+    description: "Selected projects and expertise in AI growth, commercialization and operations.",
+    images: ["/clara-career-portfolio/og.svg"],
   },
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="zh-CN">
+    <html lang="en">
       <body>{children}</body>
     </html>
   );

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://clarafdu.github.io/clara-career-portfolio/sitemap.xml
